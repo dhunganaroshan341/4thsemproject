@@ -6,6 +6,7 @@
     <title>$th sem project</title>
 </head>
 <body>
+    added to the xampp directory
     
 </body>
 </html>
