@@ -7,6 +7,7 @@
 </head>
 <body>
     added to the xampp directory
-    
+    <P>Hello changed .added a pragraph</P>
+
 </body>
 </html>
