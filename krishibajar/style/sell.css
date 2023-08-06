@@ -1,0 +1,48 @@
+
+        *{color:whitesmoke;font-size: large;}
+    h1{color:whitesmoke;font-style: halvetica;font-size:xx-large;}
+        body{
+            background-image:url("image1.jpg");background-size: cover;background-repeat:no-repeat;
+
+        }
+        .sellnav{display:flex;flex-direction: row;justify-content: space-around;align-items: center;}
+        .backpage{transform:rotate(270deg);}
+         select{
+            background:black;border-radius: 10px;
+         }
+         option{
+            border-radius: 100px;background:lightblue;transition: 0.5s;
+         }
+         #product-description{
+            background-color: transparent;
+            border-radius: 10%;
+            width:200px;height:90px;
+         }
+         form{
+            border-radius: 6em;
+            display:flex;flex-direction: column;
+            gap:1rem;background:rgba(190, 180, 100, 0.4);width:60em;align-items: center;
+         }
+         input{
+            width:50em;
+            height:4em;
+            border-radius: 2em;
+            color: #0b0c0a;
+            box-shadow:2px 2px 4px 4px darkgrey;
+         }
+         select {width:50em;height:4em;}
+         option{font-size:large;}
+
+button{background:lightseagreen;width:20em;height:4em}
+#product-image-div{
+    opacity:0.9;
+    border-radius: 5em;
+    width:20em;height: 20em;
+    background-image: url("image1.jpg");
+    background-size:cover;background-repeat: no-repeat;
+}
+.flex-row{
+    display:flex;flex-direction: row;
+}
+#quantity{width:15em;height :5em;}
+#quantity-number{width:10em;}

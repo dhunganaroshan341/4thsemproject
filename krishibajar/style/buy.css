@@ -1,0 +1,28 @@
+*:hover{
+    transition:0.5s;
+    list-style: none;
+    text-decoration:dotted;
+    text-shadow: 2px 2px 2px rgba(164, 164, 164, 0.9);
+  
+}
+*{
+    text-shadow:-5px 3px 4px rgb(28 34 21 / 70%);
+    font-size:x-large;
+    list-style: none;
+    text-decoration: none;
+    font-family: monospace;
+    color: rgb(253, 248, 242);
+    text-align: center;
+   ;
+}
+.container  *{
+    color:black;
+    display:inline-block;
+    background-color: whitesmoke;
+    border:none;
+   
+}
+.container *:hover{
+    color:orange;
+}
+
