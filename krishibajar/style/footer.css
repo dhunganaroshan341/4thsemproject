@@ -1,0 +1,53 @@
+* {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footercontainer>ul {
+    background: rgba(255, 0, 0, 0.25);
+    border-radius: 0.5em;
+    width: fit-content;
+    box-shadow: inset 3px 2px 8px 8px red;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+.flexfooter {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    justify-content: center;
+}
+
+.footercontainer {
+    background: rgb(34 34 34 / 10%);
+    height: 10rem;
+    box-shadow: 0px -9px 8px 4px black;
+
+    margin: 1% 0 1% 0;
+
+}
+
+.footercontainer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+
+.liststyling {
+    text-align: center;
+}
+
+.footercontainer  .liststyling :hover {
+
+    box-shadow: inset 2px 3px 4px 4px green;
+    color: gold;
+}
+
+/* .footeradditionalpurpose{
+    box-shadow: inset 0px 9px 8px 4px rgb(236, 21, 21);
+} */

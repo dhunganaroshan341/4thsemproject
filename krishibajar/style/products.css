@@ -1,0 +1,31 @@
+.product-grid-container{
+    display: grid;
+    grid-template-columns: 20em 20em 20em 20em;
+    grid-gap:2em;
+    margin:3em;
+    
+}
+.gridelements{
+    background-color: rgba(156, 169, 181, 0.589);
+    width:12em;
+    height: 9em;
+    box-shadow: 50px 15px 50px 20px black;
+    border-radius: 1em;
+    
+}
+.gridelements:hover{
+    box-shadow:  30px 15px 50px 20px rgba(2, 250, 35, 0.692);
+background:linear-gradient(to right,transparent,rgba(104, 255, 104,0.8));
+border: solid 4px rgba(255, 0, 0, 0.5);
+color:gold;
+}
+
+#animatedDiv {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute; /* To control positioning */
+    left: -100px; /* Starting position outside the viewport */
+    opacity: 0; /* Start with 0% opacity */
+    transition: left 1s, opacity 1s; /* Animation duration for both properties */
+}
