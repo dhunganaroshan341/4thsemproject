@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html>
+<head>
+  <title>Continuous Time Display</title>
+</head>
+<body>
+  <h1>Current Time:</h1>
+  <p id="current-time"></p>
+
+  <script>
+    function updateTime() {
+      const now = new Date();
+      const hours = String(now.getHours()).padStart(2, '0');
+      const minutes = String(now.getMinutes()).padStart(2, '0');
+      const seconds = String(now.getSeconds()).padStart(2, '0');
+      const currentTime = `${hours}:${minutes}:${seconds}`;
+      document.getElementById('current-time').innerText = currentTime;
+    }
+
+    // Call updateTime() immediately to update the time on page load
+    updateTime();
+
+    // Update the time every second (1000 milliseconds)
+    setInterval(updateTime, 1000);
+  </script>
+</body>
+</html>
+</body>
+</html>
