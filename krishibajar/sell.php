@@ -22,12 +22,12 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 <body>
     <?php
     // sell.php
-$documentRoot = $_SERVER['DOCUMENT_ROOT'];
-$bootstrapPath = '/project/krishibajar/bootstrap/unsplashimage.php';
+// $documentRoot = $_SERVER['DOCUMENT_ROOT'];
+// $bootstrapPath = '/project/krishibajar/bootstrap/unsplashimage.php';
 
 
     
-    require_once $documentRoot . $bootstrapPath;
+//     require_once $documentRoot . $bootstrapPath;
     ?>
 <div class="sellnav">
 <div id="backpage" class ="backpage">
